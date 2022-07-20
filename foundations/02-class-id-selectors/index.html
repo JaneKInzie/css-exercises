@@ -5,13 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class and ID Selectors</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text.css" href="style.css">
+    <style>
+    .odd {
+      background-color: #ff99bb;
+      font-family: "verdana", sans-serif;
+    }
+    .also {
+      font-size: 24px;
+      font-family: "dejavu-sans", sans-serif;
+    }
+    #two {
+      color: #1520A6;
+      font-size: 36px;
+      font-family: "avantgarde", sans-serif;
+    }
+    #four {
+      background-color: #AEF359;
+      font-size: 24px;
+      font-weight: 700;
+      font-family: "cochin", sans-serif
+    }
+    </style>
   </head>
   <body>
-    <p>Number 1 - I'm a class!</p>
-    <div>Number 2 - I'm one ID.</div>
-    <p>Number 3 - I'm a class, but cooler!</p>
-    <div>Number 4 - I'm another ID.</div>
-    <p>Number 5 - I'm a class!</p>
+    
+      <div>
+        <p class="odd">Number 1 - I'm a class!</p>
+        <div id="two">Number 2 - I'm one ID.</div>
+        <p class="odd also">Number 3 - I'm a class, but cooler!</p>
+        <div id="four">Number 4 - I'm another ID.</div>
+        <p class="odd">Number 5 - I'm a class!</p>
+      </div>
+      
   </body>
 </html>
