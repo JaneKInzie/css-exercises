@@ -7,8 +7,25 @@
     <title>Grouping Selectors</title>
     <link rel="stylesheet" href="style.css">
   </head>
+  <head>
+    <style>
+    .first {
+      color: white;
+      background-color: black;
+    }
+    .second {
+      background-color: yellow;
+    }
+    .first, .second {
+      font-size: 28px;
+      font-family: helvetica, "times new roman", sans-serif;
+    }
+    </style>
+  </head>
   <body>
-    <button>Click Me!</button>
-    <button>No, Click Me!</button>
+    <div>
+      <button class="first">Click Me!</button>
+      <button class ="second">No, Click Me!</button>
+    </div>
   </body>
 </html>
